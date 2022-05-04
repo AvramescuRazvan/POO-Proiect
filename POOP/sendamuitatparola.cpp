@@ -2,13 +2,17 @@
 
 bool SendAmUitatParola::sendinfo()
 {
-return 0;
+    QString raspuns=Client::getinstance().getRaspuns(info);
+    if(raspuns=="1"){
+        return true;
+    }
+    return false;
 }
 
 SendAmUitatParola::SendAmUitatParola(QString adresa_mail, QString parola1, QString parola2)
 {
 
-    info.append("102|");
+    info.append("3|");
     info.append(adresa_mail);
     info.append("|");
     info.append(parola1);

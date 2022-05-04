@@ -2,7 +2,7 @@
 #define ISEND_H
 
 #include <QObject>
-
+#include"client.h"
 class ISend
 {
 public:

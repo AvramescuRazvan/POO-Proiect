@@ -2,18 +2,21 @@
 
 bool Sendlistaprieteni::sendinfo()
 {
-    return 0;
+    QString raspuns=Client::getinstance().getRaspuns(info);
+    if(raspuns=="1"){
+        return true;
+    }
+    return false;
 }
 
 QString Sendlistaprieteni::cereri()
 {
-    QString pseudoraspuns("numeprieten |nume |");
-    return pseudoraspuns;
+    return Client::getinstance().getRaspuns(info);
 }
 
 Sendlistaprieteni::Sendlistaprieteni(QString username, QString prieten)
 {
-    info.append("107|");
+    info.append("8|");
     info.append(username);
     info.append("|");
     info.append(prieten);

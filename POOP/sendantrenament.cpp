@@ -1,13 +1,16 @@
 #include "sendantrenament.h"
 
 bool SendAntrenament::sendinfo()
-{
-    return 0;
+{   QString raspuns=Client::getinstance().getRaspuns(info);
+    if(raspuns=="1"){
+        return true;
+    }
+    return false;
 }
 
 SendAntrenament::SendAntrenament(QString username, QString zi)
 {
-    info.append("103|");
+    info.append("4|");
     info.append(username);
     info.append("|");
     info.append(zi);

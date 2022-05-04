@@ -2,16 +2,20 @@
 
 bool SendActualizareDate::sendinfo()
 {
-    return 0;
+    QString raspuns=Client::getinstance().getRaspuns(info);
+    if(raspuns=="1"){
+        return true;
+    }
+    return false;
 }
 
-SendActualizareDate::SendActualizareDate(QString username, int greutate, QString data)
+SendActualizareDate::SendActualizareDate(QString username, QString greutate, QString data)
 {
-     QString g=QString::number(greutate);
-    info.append("104|");
+     //QString g=QString::number(greutate);
+    info.append("5|");
     info.append(username);
     info.append("|");
-    info.append(g);
+    info.append(greutate);
     info.append("|");
     info.append(data);
     info.append("|");

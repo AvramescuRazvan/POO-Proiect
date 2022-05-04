@@ -10,7 +10,7 @@ private:
 public:
 
     bool sendinfo();
-    SendInregistrare(QString nume,QString prenume, QString adresa, int varsta, int inaltime, int greutate, QString username, QString parola);
+    SendInregistrare(QString username, QString parola, QString adresa, QString varsta, QString inaltime, QString greutate, QString nume, QString prenume);
     ~SendInregistrare(){};
 };
 

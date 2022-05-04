@@ -4,7 +4,10 @@
 #include<QPushButton>
 #include<QVBoxLayout>
 #include<QTextBlock>
-
+#include<QSpinBox>
+#include"sendautentificare.h"
+#include"sendinregistrare.h"
+#include"sendactualizaredate.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -22,7 +25,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_inregistrare_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+
+     ui->stackedWidget->setCurrentIndex(1);
 }
 
 
@@ -42,11 +46,16 @@ void MainWindow::on_pushButton_conectare_clicked()
 {
     QString username=ui->lineEdit_nume_2->text();
     QString password=ui->lineEdit_parola->text();
+    SendAutentificare obj(username,password);
+    if(obj.sendinfo()){
+         ui->stackedWidget->setCurrentIndex(3);
 
-    if(username=="test" && password=="test")
-        ui->stackedWidget->setCurrentIndex(3);
-    else
-        QMessageBox::information(this,"Conectare","Numele de utilizator și parola nu sunt corecte.");
+  };
+
+    //if(username=="test" && password=="test")
+    //    ui->stackedWidget->setCurrentIndex(3);
+   // else
+   //     QMessageBox::information(this,"Conectare","Numele de utilizator și parola nu sunt corecte.");
 }
 
 
@@ -58,7 +67,20 @@ void MainWindow::on_pushButton_inapoi_2_clicked()
 
 void MainWindow::on_pushButton_inregistrare_2_clicked()
 {
+    QString nume=ui->lineEdit_nume->text();
+    QString prenume=ui->lineEdit_prenume->text();
+    QString adresa=ui->lineEdit_adres_de_mail->text();
+    QString varsta=ui->spinBox_varsta->text();
+    QString inaltime=ui->spinBox_inaltime->text();
+    QString greutate=ui->spinBox_greutate->text();
+    QString username=ui->lineEdit_nume_utiliazator->text();
+    QString parola=ui->lineEdit_parola_2->text();
+
+     SendInregistrare obj(username,  parola,  adresa, varsta,inaltime, greutate,  nume, prenume);
+
+    if(obj.sendinfo( )){
     ui->stackedWidget->setCurrentIndex(1);
+    }
 }
 
 
@@ -75,6 +97,10 @@ void MainWindow::on_pushButton_prieteni_clicked()
 
 void MainWindow::on_pushButton_actualizare_date_clicked()
 {
+    //QString greutate=ui->spinBox_greutate_2->text();
+    //QString data=ui->dateEdit_data->text();
+    //QString username=ui->lineEdit_nume_2->text();
+    //SendActualizareDate obj( username,  greutate,  data);
      ui->stackedWidget->setCurrentIndex(5);
 }
 
@@ -141,7 +167,6 @@ void MainWindow::on_pushButton_antrenament_clicked()
 {
     if(ui->comboBox_zile->currentText()=="Luni")
         ui->stackedWidget->setCurrentIndex(10);
-
     if(ui->comboBox_zile->currentText()=="Marți")
         ui->stackedWidget->setCurrentIndex(11);
     if(ui->comboBox_zile->currentText()=="Miercuri")

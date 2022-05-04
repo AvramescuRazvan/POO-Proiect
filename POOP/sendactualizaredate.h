@@ -9,7 +9,7 @@ private:
     QString info;
 public:
     bool sendinfo();
-    SendActualizareDate(QString username,int greutate, QString data);
+    SendActualizareDate(QString username, QString greutate, QString data);
     ~SendActualizareDate();
 };
 

@@ -2,19 +2,22 @@
 
 bool SendVizualizareEvolutie::sendinfo()
 {
-    return 0;
+    QString raspuns=Client::getinstance().getRaspuns(info);
+    if(raspuns=="1"){
+        return true;
+    }
+    return false;
 }
 
 QString SendVizualizareEvolutie::evolutie()
 {
 
-   QString pseudoraspuns("zi kg progres|zi1 kg1 progres1|");
-   return pseudoraspuns;
+  return Client::getinstance().getRaspuns(info);
 }
 
 SendVizualizareEvolutie::SendVizualizareEvolutie(QString username)
 {
-    info.append("105|");
+    info.append("6|");
     info.append(username);
     info.append("|");
 }
