@@ -97,7 +97,7 @@ background-image: url(:/img/12.jpeg);}
 background-image: url(:/img/12.jpeg);}</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QGroupBox" name="groupBox_8">

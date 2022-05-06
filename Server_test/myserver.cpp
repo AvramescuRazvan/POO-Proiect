@@ -21,7 +21,7 @@ void MyServer::newConnection()
 {
     QTcpSocket *socket = server->nextPendingConnection();
 
-    socket->write("hello client\r\n");
+    socket->write("1");
     socket->flush();
 
     socket->waitForBytesWritten(3000);
