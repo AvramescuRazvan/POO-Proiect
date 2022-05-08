@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Tepes\source\repos\server_test_poo\server_test_poo\Source.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Tepes\source\repos\server_test_poo\server_test_poo\Source.cpp(29,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Tepes\source\repos\server_test_poo\server_test_poo\Source.cpp(9,7): warning C4101: 'mode': unreferenced local variable
+  server_test_poo.vcxproj -> C:\Users\Tepes\source\repos\server_test_poo\Debug\server_test_poo.exe
