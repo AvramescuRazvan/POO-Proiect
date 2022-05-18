@@ -1,6 +1,6 @@
 #ifndef SENDLISTAPRIETENI_H
 #define SENDLISTAPRIETENI_H
-
+//aici sunt cererile de prietenie
 #include "csend.h"
 
 class Sendlistaprieteni : public CSend
@@ -10,7 +10,7 @@ private:
 public:
     bool sendinfo();
     QString cereri();
-    Sendlistaprieteni(QString username,QString prieten);
+    Sendlistaprieteni(QString username);
     ~Sendlistaprieteni(){};
 };
 

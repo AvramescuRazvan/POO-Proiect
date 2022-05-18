@@ -25,79 +25,107 @@
     </property>
     <property name="styleSheet">
      <string notr="true">#page
-{background-image: url(:/img/1.jpeg);}
+{
+	border-image: url(:/img/1.jpeg);
+}
 
 #actualizaredate
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #amuitatparola
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 #antrenament1
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 #antrenament2
-{background-image: url(:/img/12.jpeg);}
-
+{
+background-image: url(:/img/12.jpeg);
+}
 
 #antrenament3
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #antrenament4
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
+
 #antrenament5
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
+
 
 #antrenament6
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #antrenament7
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #autentificare
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #inregistrare
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #listaevolutie
 {	
-background-image: url(:/img/12.jpeg);}
-
+background-image: url(:/img/12.jpeg);
+}
 
 #plistaprieteni
 {	
-background-image: url(:/img/12.jpeg);}
-
+background-image: url(:/img/12.jpeg);
+}
 
 #meniu
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 
 #prieteni
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
 #antrenamente
 {	
-background-image: url(:/img/12.jpeg);}
-
+background-image: url(:/img/12.jpeg);
+}
 
 #listaprieteni
 {	
-background-image: url(:/img/12.jpeg);}</string>
+background-image: url(:/img/12.jpeg);
+}
+
+#informatii_client
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#evolutie_prieten
+{	
+background-image: url(:/img/12.jpeg);
+}</string>
     </property>
     <property name="currentIndex">
-     <number>8</number>
+     <number>10</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QGroupBox" name="groupBox_8">
@@ -248,6 +276,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
        </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_9">
@@ -612,6 +644,10 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
       </widget>
       <widget class="QDoubleSpinBox" name="spinBox_inaltime">
        <property name="geometry">
@@ -646,7 +682,7 @@ border-radius:5px;
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>-10</y>
         <width>501</width>
         <height>331</height>
        </rect>
@@ -660,9 +696,9 @@ border-radius:5px;
       <widget class="QPushButton" name="pushButton_actualizare_date">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>110</y>
-         <width>135</width>
+         <x>180</x>
+         <y>130</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -684,13 +720,17 @@ border-radius:5px;
        <property name="text">
         <string>Actualizare date</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/system-update.png</normaloff>../../Desktop/system-update.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_vizualizare_evolutie">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>160</y>
-         <width>135</width>
+         <x>180</x>
+         <y>170</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -712,13 +752,17 @@ border-radius:5px;
        <property name="text">
         <string>Vizualizare evoluție</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/evolution.png</normaloff>../../Desktop/evolution.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_antrenamente">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>60</y>
-         <width>135</width>
+         <x>180</x>
+         <y>90</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -739,13 +783,17 @@ border-radius:5px;
        <property name="text">
         <string>Antrenamente</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/stretching-exercises.png</normaloff>../../Desktop/stretching-exercises.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_prieteni">
        <property name="geometry">
         <rect>
-         <x>190</x>
+         <x>180</x>
          <y>210</y>
-         <width>135</width>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -765,6 +813,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Prieteni</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/friends.png</normaloff>../../Desktop/friends.png</iconset>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_inapoi_3">
@@ -791,6 +843,71 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_informatii_client">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>151</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_informatii_client{
+	
+	background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_informatii_client:hover{
+	background-color: rgb(157, 217, 146);
+
+
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Informații utilizator</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/info.png</normaloff>../../Desktop/info.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_stergere">
+       <property name="geometry">
+        <rect>
+         <x>356</x>
+         <y>270</y>
+         <width>135</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_stergere{
+	background-color: rgb(245, 156, 156);
+ border-radius:8px;
+}
+#pushButton_stergere:hover{
+
+	
+	background-color: rgb(245, 93, 93);
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Ștergere cont</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/bin.png</normaloff>../../Desktop/bin.png</iconset>
+       </property>
       </widget>
      </widget>
     </widget>
@@ -814,7 +931,7 @@ border-radius:5px;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>40</y>
+         <y>30</y>
          <width>135</width>
          <height>35</height>
         </rect>
@@ -859,6 +976,50 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="lista_prieteni_a">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>20</y>
+         <width>221</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="vizualizatre_evolutie_prieten">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>270</y>
+         <width>191</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#vizualizatre_evolutie_prieten{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#vizualizatre_evolutie_prieten:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Vizualizare evoluție prieten</string>
        </property>
       </widget>
      </widget>
@@ -930,6 +1091,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
        </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_10">
@@ -1046,6 +1211,10 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_12">
        <property name="geometry">
@@ -1068,7 +1237,7 @@ border-radius:5px;
          <rect>
           <x>130</x>
           <y>20</y>
-          <width>81</width>
+          <width>111</width>
           <height>41</height>
          </rect>
         </property>
@@ -1083,7 +1252,7 @@ background-color: rgb(245, 231, 192);</string>
         </item>
         <item>
          <property name="text">
-          <string>Marți</string>
+          <string>Marti</string>
          </property>
         </item>
         <item>
@@ -1103,12 +1272,12 @@ background-color: rgb(245, 231, 192);</string>
         </item>
         <item>
          <property name="text">
-          <string>Sâmbătă</string>
+          <string>Sambata</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Duminică</string>
+          <string>Duminica</string>
          </property>
         </item>
        </widget>
@@ -1199,6 +1368,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
        </property>
       </widget>
       <widget class="QListWidget" name="listevolution">
@@ -1317,6 +1490,16 @@ background-color: rgb(245, 231, 192);</string>
         <string>Adresa de mail</string>
        </property>
       </widget>
+      <widget class="QLineEdit" name="adresa_de_mail">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
       <widget class="QLineEdit" name="lineEdit_nou_adresamail">
        <property name="geometry">
         <rect>
@@ -1362,6 +1545,10 @@ border-radius:5px;
      </widget>
     </widget>
     <widget class="QWidget" name="listaprieteni">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_10">
       <property name="geometry">
        <rect>
@@ -1389,65 +1576,146 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
      <widget class="QListWidget" name="listfriends">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>40</y>
-        <width>300</width>
-        <height>200</height>
+        <x>289</x>
+        <y>30</y>
+        <width>201</width>
+        <height>271</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(245, 231, 192);</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament1">
-     <widget class="QPlainTextEdit" name="plainTextEdit_a1">
+     <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>181</height>
+        <x>295</x>
+        <y>270</y>
+        <width>76</width>
+        <height>25</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">#pushButton{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#pushButton:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
       </property>
-      <property name="plainText">
-       <string>Poți să-ți lucrezi eficient brațele, spatele și pectoralii în mii și mii de feluri, acasă, folosindu-te doar de greutatea corpului și de câteva obiecte din spațiul în care te antrenezi. Executate în mod corect, exercițiile de mai jos asigură rezultate vizibile, într-un timp cât se poate de scurt.
-Iată câteva tipuri de exerciții pe care le poți include în programul tău zilnic de antrenament:
-
-1. Flotări simple
-Pentru a-ți lucra eficient bicepșii și pectoralii, îți recomandăm să faci flotări. Aceste exerciții complete se pot realiza în mai multe feluri, în funcție de nivelul tău de practică: în genunchi sau pe picioare, modificând înclinarea, schimbând poziția mâinilor (mai puțin sau mai mult, apropiate una de cealaltă), adaptând viteza sau numărul de repetări. Zi după zi, vei realiza progrese vizibile și îți vei tonifia brațele.
-
-2. Flotări la paralele
-Pentru a-ți lucra tricepșii, mușchii cei mai lungi de la nivelul brațelor, alege flotările la paralele. Sprijină-te de o masă joasă sau de un scaun, cu picioarele mai mult sau mai puțin în față, în funcție de nivel, și coboară brațele până formezi un unghi de 90° cu cotul. Numărul de repetări depinde de nivelul tău de practică.
-
-3. Tracțiuni
-Pentru a realiza aceste exerciții, ai nevoie de o bară de tracțiune. Pe lângă lucrarea brațelor, tracțiunile te ajută să îți lucrezi eficient spatele (exact ca spatele în „V” al înotătorilor). Acest exercițiu este dificil, deci nu te îngrijora dacă la început nu reușești să faci decât o tracțiune. Odată cu trecerea timpului, vei vedea progrese notabile. </string>
+      <property name="text">
+       <string>accepta</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/checked.png</normaloff>../../Desktop/checked.png</iconset>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QPushButton" name="pushButton_respinge">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>20</y>
-        <width>441</width>
+        <x>410</x>
+        <y>270</y>
+        <width>76</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_respinge{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#pushButton_respinge:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>respinge</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/x-mark.png</normaloff>../../Desktop/x-mark.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_nume_prieten_nou">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_adaugare_prieten">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_adaugare_prieten{
+	
+	background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_adaugare_prieten:hover{
+	background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Trimite cerere</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/add-user.png</normaloff>../../Desktop/add-user.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>131</width>
         <height>41</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
-      </property>
       <property name="text">
-       <string> Exerciții fizice pentru partea superioară a corpului</string>
+       <string>Adăugare prieten:</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament1">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_8">
       <property name="geometry">
        <rect>
@@ -1475,57 +1743,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament2">
-     <widget class="QPlainTextEdit" name="plainTextEdit_a2">
-      <property name="geometry">
-       <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>191</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
-      </property>
-      <property name="plainText">
-       <string>Cine nu își dorește să aibă coapse și fese bine lucrate și tonifiate? Realizând exercițiile care urmează, acest vis poate deveni realitate. Avem încredere în tine!
-
-1. Genuflexiuni
-Aceste exerciții sunt ideale pentru lucrarea musculaturii picioarelor. Realizate corect, genuflexiunile te ajută să îți lucrezi coapsele și fesele.
-
-Sigur cunoști aceste exerciții, dar reamintim cum se execută și pentru persoanele care nu le-au realizat niciodată: bine încordat, cu picioarele depărtate la lățimea umerilor, îndoaie picioarele până formezi un unghi de 90° cu genunchii.
-
-Trage posteriorul către spate. Linia umerilor nu trebuie să depășească niciodată linia genunchilor. Poți crește dificultatea exercițiului, realizând mai multe repetări, încetinind coborârea sau ridicarea. În curând, vei avea picioarele tonifiate!
-
-Spatele trebuie ținut cât mai drept, iar privirea trebuie orientată spre înainte. Coborârea se realizează până în punctul în care simți că există un nivel considerabil de tensiune la nivelul coapselor. Pentru un plus de dificultate, utilizează gantere de greutate redusă. 
-
-2. Fandări și step
-Acest exercițiu pune accentul pe lucrarea mușchilor fesieri. Prin realizarea de fandări, îți lucrezi și coapsele. Mișcarea este simplă: este suficient să avansezi cu un picior în față, flexionându-l până când genunchiul piciorului din spate aproape atinge solul.
-
-Ți se pare prea ușor? Atunci realizează fandări cu sărituri, alternând picioarele. Pentru step, poți aborda un mers de urcat scările, pentru a simula urcarea și coborârea. Nu ezita să faci exercițiile cu muzică pe fundal, pentru a fi mai distractive și a alunga eventuala monotonie din timpul practicării acestora.
-</string>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
       </property>
      </widget>
-     <widget class="QLabel" name="label_2">
+     <widget class="QTextBrowser" name="textBrowser">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="text">
-       <string> Exerciții pentru partea inferioară a corpului</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament2">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_17">
       <property name="geometry">
        <rect>
@@ -1553,53 +1800,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament3">
-     <widget class="QPlainTextEdit" name="plainTextEdit_a3">
-      <property name="geometry">
-       <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>191</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
-      </property>
-      <property name="plainText">
-       <string>Există numeroase exerciții ușor de realizat și foarte eficiente pentru lucrarea acestei părți a corpului, chiar și fără aparate de fitness. Iată câteva exemple:
-
-1. Plank / planșă
-Acest exercițiu este ideal pentru persoanele care își doresc un abdomen plat. Poziția este următoarea: sprijină-te pe antebrațe și pe vârfurile picioarelor. Este important să nu curbezi spatele. Ideal ar fi să realizezi 3 serii de câte 30 de secunde, pentru început. Poți crește acest interval de timp pe măsură ce progresezi.
-
-2. Abdomene
-Acesta este unul din exercițiile de bază pentru lucrarea abdomenului. Întins pe spate, cu genunchii îndoiți și mâinile la ceafă, îți ridici trunchiul, închipuindu-ți că îți împingi abdomenul înspre spate.  
-
-3. Ridicări ale picioarelor
-Este un exercițiu ideal pentru a lucra partea inferioară a mușchilor abdominali. Întins/ă pe spate, este suficient să ridici picioarele cât mai sus posibil (ideal în poziție verticală), fără a curba spatele.
-
-Menține picioarele într-o poziție dreaptă, cu brațele orientate în sus, la un unghi de aproximativ 45° față de suprafața solului. La fel ca în cazul executării planșei, include în rutina de antrenamente pentru acasă un set de 3-5 serii, a câte 30 de secunde fiecare. </string>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QTextBrowser" name="textBrowser_2">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="text">
-       <string> Exerciții pentru mușchii abdominali</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament3">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_9">
       <property name="geometry">
        <rect>
@@ -1627,25 +1857,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament4">
-     <widget class="QLabel" name="label_8">
+     <widget class="QTextBrowser" name="textBrowser_3">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="text">
-       <string>Antrenamentul cardio acasă</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament4">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_14">
       <property name="geometry">
        <rect>
@@ -1673,105 +1914,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_a4">
+     <widget class="QTextBrowser" name="textBrowser_4">
       <property name="geometry">
        <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>181</height>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="plainText">
-       <string>Poate părea complicat să faci antrenamente cardio la domiciliu, fără echipament costisitor. Cu toate acestea, există câteva tipuri de exerciții care îți vor pune sângele în mișcare și te vor ajuta să scapi de kilogramele în plus:
-
-săriturile cu coarda (10-20 de minute în fiecare zi);
-sărituri cu genunchii la piept;
-alergarea pe loc;
-exercițiile burpees – un amestec între flotări, genuflexiuni și sărituri, acest exercițiu este apreciat pentru capacitatea de a arde calorii într-un timp scurt. Încearcă-l!
-Jumping Jacks  sau săriturile pe loc, depărtând picioarele și ridicând brațele în același timp – pot arde circa 100 de calorii în doar 10 minute.
-
-SFAT: Pentru a arde mai multe grăsimi și să ai un boost de energie pentru întreaga zi, fă antrenamente cardiovasculare dimineața, pe stomacul gol.</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
     <widget class="QWidget" name="antrenament5">
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Antrenament pentru picioare</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_a5">
-      <property name="geometry">
-       <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>181</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
-      </property>
-      <property name="plainText">
-       <string> Genuflexiuni cu propria greutate:
-
-Stai in picioare, cu talpile departate la o latime de umeri si lasa-ti greutatea pe calcaie
-Apleaca-te in fata din solduri si lasa-te in jos, cu fundul in spate. Indoaie genunchii, pana cand coapsele formeaza o linie paralela cu podeaua
-Impinge in calcaie pentru a te ridica din nou in pozitia de start, tinand fundul si trunchiul incordate in timpul ridicarii
-
-Fandari inverse cu ridicarea genunchiului:
-
-Incepi din pozitia stand, cu picioarele departate la o latime de umeri
-Paseste in spate cu piciorul stang, calcand pe talpa indoita si indoind amandoi genunchii, pentru a crea doua unghiuri de 90 de grade
-Impinge in calcaiul drept pentru a reveni in pozitia de start. Cand te ridici, impinge genunchiul stang catre piept
-Repeta miscarea pornind cu celalalt picior.
-
-Genuflexiuni in plie cu ridicarea gambei:
-
-Porneste din pozitia stand, cu picioarele mai departate de o latime de umeri, cu varfurile indreptate catre exterior si mainile pe solduri sau unite in fata pieptului
-Coboara in genuflexiune pana cand coapsele ajung parelele cu podeaua
-Stand in pozitia de genuflexiune, ridica ambele calcaie de pe podea si mentine pozitia pentru doua secunde
-Coboara calcaiele inapoi pe podea.
-
-Genuflexiuni cu saritura:
-
-Porneste din pozitia stand, cu picioarele usor mai apropiate de o latime de sold
-Apleaca-te inainte din solduri si coboara fundul intr-o pozitie de genuflexiune. Indoaie genunchii pana cand coapsele sunt paralele cu podeaua
-Sari in aer cat de sus poti si intinde picioarele. Lasa bratele in jos pentru elan si tine spatele drept si pieptul ridicat
-Aterizeaza inapoi pe podea cu genunchii moi, coborand direct in alta genuflexiune.
-
-Sarituri cu varfurile picioarelor pe banca (scaun):
-
-Stai cu fata la o banca sau la o cutie (sau la un scaun daca nu ai altceva la indemana), cu mainile pe solduri sau pe langa corp
-Pune piciorul stang pe banca, apoi schimba picioarele si pune piciorul drept pe banca, alternand rapid
-Tine spatele drept si pieptul ridicat pe toata durata exercitiului.
-
-Fandari laterale:
-
-Stai in picioare, cu talpile departate la o latime de sold
-Fa un pas mare catre dreapta. Indoaie genunchiul drept si impinge fundul in spate, tinand piciorul stang drept. Mentine pieptul ridicat si trunchiul incordat.
-Repeta fandarea cu celalalt picior.
-</string>
-      </property>
-     </widget>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_11">
       <property name="geometry">
        <rect>
@@ -1799,65 +1971,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament6">
-     <widget class="QLabel" name="label_6">
+     <widget class="QTextBrowser" name="textBrowser_5">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="text">
-       <string>Antrenament pentru abdomen</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_a6">
-      <property name="geometry">
-       <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>181</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
-      </property>
-      <property name="plainText">
-       <string>Abdomene
-Seturi 3: Repetări 15-20
-
-Stai întins pe spate cu genunchii îndoiți și picioarele pe podea. Plasează mâinile în spatele capului sau încrucișează-le pe piept. Contractează-ți mușchii abdominali trăgând burta spre coloana vertebrală și stai cu spatele întins pe podea. Ridică umerii ușor de pe podea. Strânge abdomenul în partea de sus a mișcării și coboară înapoi la poziția de pornire realizândo mișcare controlată.
-
-Heel Reach 
-Seturi: 3 Repetări: 15-20
-
-Metodă: Stai întins pe spate cu genunchii îndoiți și picioarele pe podea. Pune brațele pe lângă corp. Contractează-ți oblicii ducând mâna dreaptă la călcâiul drept, de îndată ce ai atins călcâiul, repetă această mișcare cu mâna stângă. Menține aceste mișcări alternativ. Asigură-te că partea inferioară a spatelui rămâne lipită de podea, iar umerii sunt ușor ridicați.
-
-Abdomene inverse – pe blog, e o descriere greșită, am făcut eu una.
-Seturi: 3 Repetări 15-20
-
-Stai întins pe podea cu partea inferioară a spatelui lipită de aceasta, genunchii puțin îndoiți și talpa piciorului lipită de podea. Poziționează mâinile pe lângă corp. Ca poziție de plecare, ridică genunchii și picioarele fără să te ajuți de mâini la un unghi de 90 de grade față de podea și, atunci când ai ajuns la un unghi de 90 de grade, împinge din abdomen.. După aceea, cu o mișcare controlată, lasă jos genunchii și picioarele fără să atingi podeaua. Această mișcare reprezintă o repetare. 
-
-Glute Bridge 
-Seturi: 3 Repetări 15-20
-
-Stai întins pe spate cu genunchii ridicați și cu picioarele pe podea. Stai cu brațele relaxate, pe lângă corp. Ridică-te de șolduri păstrând umerii și brațele pe podea. La cel mai înalt punct, menține o pauză și strânge din mușchii fesieri și după aceea coboară la podea. 
-
-Forearm Plank
-Seturi: 3 Repetări: Menținere 30-60 secunde
-
-Stai într-o poziție de flotare cu coatele pe podea la un unghi de 90 de grade. Încordează abdomenul și menține poziția timp de 30-60 de secunde.</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament6">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_12">
       <property name="geometry">
        <rect>
@@ -1885,25 +2028,36 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="antrenament7">
-     <widget class="QLabel" name="label_7">
+     <widget class="QTextBrowser" name="textBrowser_6">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>20</y>
-        <width>441</width>
-        <height>41</height>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="text">
-       <string>Antrenament pentru partea inferioară fără echipament</string>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament7">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
      <widget class="QPushButton" name="pushButton_inapoi_13">
       <property name="geometry">
        <rect>
@@ -1931,74 +2085,125 @@ border-radius:5px;
       <property name="text">
        <string>Înapoi</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_a7">
+     <widget class="QTextBrowser" name="textBrowser_7">
       <property name="geometry">
        <rect>
-        <x>15</x>
-        <y>70</y>
-        <width>471</width>
-        <height>181</height>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(162, 223, 150);
-font: 12pt &quot;Times New Roman&quot;;</string>
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
       </property>
-      <property name="plainText">
-       <string>Ridicari de gambe cu un singur picior:
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="informatii_client">
+     <widget class="QListWidget" name="listWidget_informstii_client">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>300</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_inapoi_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_15{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapo_15i:hover{
+	font: 12pt &quot;Times New Roman&quot;;
 
-Stai in picioare, cu talpile departate la o latime de sold
-Ridica genunchiul stang la nivelul soldului, cu varfurile in jos, cu mainile pe solduri sau in spatele capului (alege o pozitie in care sa iti mentii echilibrul)
-Tine trunchiul incordat in timp ce ridici calcaiul drept cat de sus poti, balansandu-te pe centrul talpii
-Mentine pozitia timp de trei secunde, apoi coboara calcaiul inapoi pe podea.
-Repeta cu celalalt picior.
+background-color: rgb(157, 217, 146);
+border-radius:5px;
 
-Fandari reverenta:
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="evolutie_prieten">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QListWidget" name="lista_evolutie_prieteni">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>300</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_inapoi_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_16{
 
-Stai in picioare, cu talpile departate la o latime de umeri
-Paseste cu piciorul drept in spatele piciorului stang si indoaie genunchii pentru a cobori intr-o fandare
-Impinge in calcaiul drept pentru a te ridica si adu piciorul drept inapoi in pozitia de start.
-Repeta miscarea cu celalalt picior.
+background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_inapoi_16:hover{
+	
+	background-color: rgb(157, 217, 146);
 
-Genuflexiuni pistol (genuflexiuni pe un picior):
+border-radius:5px;
 
-Stai in picioare cu talpile unite
-Ridica piciorul stang cativa centimetri si intinde-l in fata, cu talpa flexata.
-Indoaie genunchiul drept, inclina-te in fata din solduri si coboara intr-o genuflexiune, in timp ce ridici piciorul stang la inaltimea soldului. Intinde bratele in laterale pentru echilibru
-Incearca sa indoi genunchiul la 90 de grade daca poti. Este o miscare foarte grea, asa ca nu te descuraja daca nu o poti face de la prima incercare
-Impinge in calcaiul drept pentru a indrepta piciorul si revino la start.
-Repeta miscarea cu celalalt picior.
-
-Ridicari de picior in lateral:
-
-Intinde-te pe o parte cu picioarele drepte si puse unul peste altul. Sprijina-te pe antebrat sau lasa-ti torsul pe saltea
-Ridica piciorul de deasupra catre tavan intr-o miscare lenta si controlata. Ai grija sa ridici de la sold si fund, nu din zona lombara
-Revino la start.
-Repeta cu piciorul celalalt.
-
- Ridicari de picioare pentru interiorul coapselor:
-
-Porneste din intins pe o parte, cu picioarele drepte, puse unul peste celalalt si cu torsul pe saltea sau sprijinit pe antebrat
-Incruciseaza piciorul de deasupra peste cel de jos, indoind genunchiul, astfel incat piciorul de sus sa fie in fata genunchiului piciorului de jos
-Ridica piciorul de jos catre tavan intr-o miscare lenta si controlata. Mentine torsul stabil pe toata durata miscarii
-Revino la start.
-Repeta cu celalalt picior.
-
-Podul pentru fesieri pe un singur picior:
-
-Stai pe spate, cu genunchii indoiti si cu talpile pe podea
-Ridica piciorul drept si indreapta genunchiul. Tine coapsele paralele una cu cealalta. Indreapta degetele catre tavan
-Impinge in calcaie pentru a ridica soldurile, incordand fesierii. Incearca sa creezi o linie diagonala intre umeri si genunchi
-Mentine podul timp de doua secunde, apoi coboara spatele.
-Repeta cu celalalt picior.
-
-Deschideri pentru interiorul coapselor:
-
-Stai pe spate, cu genunchii indoiti si cu talpile pe podea. Ridica piciorul drept, mentinand coapsele lipite si intinde piciorul catre tavan
-Coboara usor piciorul drept catre partea dreapta cat de mult poti, mentinand soldurile si zona lombara lipite de podea
-Adu piciorul inapoi la pozitia de start.
-Repeta cu celalalt picior.</string>
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
       </property>
      </widget>
     </widget>

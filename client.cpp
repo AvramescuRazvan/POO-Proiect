@@ -61,7 +61,7 @@ QString Client::getRaspuns(QString sendmessage)
      if(socket->isWritable()){
          QByteArray mesaj=sendmessage.toLocal8Bit();
          socket->write(mesaj.data(),qint64(sendmessage.size()));
-         qDebug()<<sendmessage;
+        // qDebug()<<sendmessage;
      }
      while(Client::readFlag==false){
          socket->waitForReadyRead(5000);
@@ -76,7 +76,6 @@ QString Client::getRaspuns(QString sendmessage)
 
      return mesaj;
 
-    // return "";
 }
 
 QString Client::readyRead()

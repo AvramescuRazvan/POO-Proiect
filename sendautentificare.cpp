@@ -3,7 +3,7 @@
 bool SendAutentificare::sendinfo()
 {
    QString raspuns=Client::getinstance().getRaspuns(info);
-   if(raspuns[0]=='1'){
+   if(raspuns=="1"){
        return true;
    }
    return false;

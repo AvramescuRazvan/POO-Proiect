@@ -1,6 +1,6 @@
-#include "sendvizualizareevolutie.h"
+#include "sendinformatii.h"
 
-bool SendVizualizareEvolutie::sendinfo()
+bool SendInformatii::sendinfo()
 {
     QString raspuns=Client::getinstance().getRaspuns(info);
     if(raspuns=="1"){
@@ -9,17 +9,16 @@ bool SendVizualizareEvolutie::sendinfo()
     return false;
 }
 
-QString SendVizualizareEvolutie::evolutie()
+QString SendInformatii::lista_informatii()
 {
 
   return Client::getinstance().getRaspuns(info);
 }
 
-SendVizualizareEvolutie::SendVizualizareEvolutie(QString username)
+SendInformatii::SendInformatii(QString username)
 {
-    info.append("6|");
+    info.append("9|");
     info.append(username);
     info.append("|");
 }
-
 

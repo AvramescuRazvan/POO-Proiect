@@ -3,10 +3,15 @@
 bool SendPrieten::sendinfo()
 {
     QString raspuns=Client::getinstance().getRaspuns(info);
-    if(raspuns[0]=='1'){
+    if(raspuns=="1"){
         return true;
     }
     return false;
+}
+
+QString SendPrieten::prieteni_utiliztor()
+{
+    return Client::getinstance().getRaspuns(info);
 }
 
 SendPrieten::SendPrieten(QString username)

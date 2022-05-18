@@ -1,6 +1,6 @@
 #ifndef SENDAUTENTIFICARE_H
 #define SENDAUTENTIFICARE_H
-
+#include<QMessageBox>
 #include "csend.h"
 
 class SendAutentificare : public CSend

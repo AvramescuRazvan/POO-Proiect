@@ -9,6 +9,7 @@ private:
     QString info;
 public:
     bool sendinfo();
+    QString prieteni_utiliztor();
     SendPrieten(QString username);
     ~SendPrieten(){};
 };

@@ -9,6 +9,7 @@ private:
     QString info;
 public:
     bool sendinfo();
+    QString antrenamente();
     SendAntrenament(QString username,QString zi);
     ~SendAntrenament(){};
 };

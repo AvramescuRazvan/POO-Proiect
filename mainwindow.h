@@ -74,6 +74,24 @@ private slots:
 
     void on_pushButton_cereri_clicked();
 
+    void on_pushButton_salveaza_clicked();
+
+    void on_pushButton_informatii_client_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_respinge_clicked();
+
+    void on_pushButton_inapoi_15_clicked();
+
+    void on_vizualizatre_evolutie_prieten_clicked();
+
+    void on_pushButton_inapoi_16_clicked();
+
+    void on_pushButton_adaugare_prieten_clicked();
+
+    void on_pushButton_stergere_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

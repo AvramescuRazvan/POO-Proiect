@@ -10,7 +10,7 @@ private:
 public:
     bool sendinfo();
     SendActualizareDate(QString username, QString greutate, QString data);
-    ~SendActualizareDate();
+    ~SendActualizareDate(){};
 };
 
 #endif // SENDACTUALIZAREDATE_H

@@ -2,11 +2,17 @@
 
 bool SendAntrenament::sendinfo()
 {   QString raspuns=Client::getinstance().getRaspuns(info);
-    if(raspuns[0]=='1'){
+    if(raspuns=="1"){
         return true;
     }
     return false;
 }
+
+QString SendAntrenament::antrenamente()
+{
+    return Client::getinstance().getRaspuns(info);
+}
+
 
 SendAntrenament::SendAntrenament(QString username, QString zi)
 {
