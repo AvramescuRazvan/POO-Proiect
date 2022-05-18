@@ -25,43 +25,107 @@
     </property>
     <property name="styleSheet">
      <string notr="true">#page
-{background-image: url(:/img/1.jpeg);}
+{
+	border-image: url(:/img/1.jpeg);
+}
 
-#page_2
+#actualizaredate
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
-#page_3
+#amuitatparola
 {	
-background-image: url(:/img/12.jpeg);}
-#page_4
+background-image: url(:/img/12.jpeg);
+}
+#antrenament1
 {	
-background-image: url(:/img/12.jpeg);}
-#page_5
-{background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
+#antrenament2
+{
+background-image: url(:/img/12.jpeg);
+}
+
+#antrenament3
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#antrenament4
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#antrenament5
+{	
+background-image: url(:/img/12.jpeg);
+}
 
 
-#page_6
+#antrenament6
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
-#page_7
+#antrenament7
 {	
-background-image: url(:/img/12.jpeg);}
-#page_8
-{	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
-#page_9
+#autentificare
 {	
-background-image: url(:/img/12.jpeg);}
+background-image: url(:/img/12.jpeg);
+}
 
-#page_10
+#inregistrare
 {	
-background-image: url(:/img/12.jpeg);}</string>
+background-image: url(:/img/12.jpeg);
+}
+
+#listaevolutie
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#plistaprieteni
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#meniu
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+
+#prieteni
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#antrenamente
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#listaprieteni
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#informatii_client
+{	
+background-image: url(:/img/12.jpeg);
+}
+
+#evolutie_prieten
+{	
+background-image: url(:/img/12.jpeg);
+}</string>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>10</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QGroupBox" name="groupBox_8">
@@ -141,7 +205,7 @@ border-radius:5px;
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_2">
+    <widget class="QWidget" name="autentificare">
      <widget class="QGroupBox" name="groupBox">
       <property name="geometry">
        <rect>
@@ -156,7 +220,7 @@ border-radius:5px;
 </string>
       </property>
       <property name="title">
-       <string>Conectare</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_conectare">
        <property name="geometry">
@@ -212,6 +276,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
        </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_9">
@@ -320,7 +388,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_3">
+    <widget class="QWidget" name="inregistrare">
      <widget class="QGroupBox" name="groupBox_2">
       <property name="geometry">
        <rect>
@@ -334,7 +402,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
        <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="title">
-       <string>Autentificare</string>
+       <string/>
       </property>
       <widget class="QLabel" name="label_nume">
        <property name="geometry">
@@ -466,32 +534,6 @@ font: 12pt &quot;Segoe UI&quot;;</string>
         <string notr="true">background-color: rgb(245, 231, 192);</string>
        </property>
       </widget>
-      <widget class="QSpinBox" name="spinBox_inaltime">
-       <property name="geometry">
-        <rect>
-         <x>150</x>
-         <y>140</y>
-         <width>42</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(245, 231, 192);</string>
-       </property>
-      </widget>
-      <widget class="QSpinBox" name="spinBox_greutate">
-       <property name="geometry">
-        <rect>
-         <x>150</x>
-         <y>170</y>
-         <width>42</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(245, 231, 192);</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="pushButton_inregistrare_2">
        <property name="geometry">
         <rect>
@@ -602,15 +644,45 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="spinBox_inaltime">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>140</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="spinBox_greutate">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>170</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="meniu">
      <widget class="QGroupBox" name="groupBox_3">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>-10</y>
         <width>501</width>
         <height>331</height>
        </rect>
@@ -619,14 +691,14 @@ border-radius:5px;
        <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="title">
-       <string>Meniu</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_actualizare_date">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>110</y>
-         <width>135</width>
+         <x>180</x>
+         <y>130</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -648,13 +720,17 @@ border-radius:5px;
        <property name="text">
         <string>Actualizare date</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/system-update.png</normaloff>../../Desktop/system-update.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_vizualizare_evolutie">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>160</y>
-         <width>135</width>
+         <x>180</x>
+         <y>170</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -676,13 +752,17 @@ border-radius:5px;
        <property name="text">
         <string>Vizualizare evoluție</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/evolution.png</normaloff>../../Desktop/evolution.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_antrenamente">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>60</y>
-         <width>135</width>
+         <x>180</x>
+         <y>90</y>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -703,13 +783,17 @@ border-radius:5px;
        <property name="text">
         <string>Antrenamente</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/stretching-exercises.png</normaloff>../../Desktop/stretching-exercises.png</iconset>
+       </property>
       </widget>
       <widget class="QPushButton" name="pushButton_prieteni">
        <property name="geometry">
         <rect>
-         <x>190</x>
+         <x>180</x>
          <y>210</y>
-         <width>135</width>
+         <width>151</width>
          <height>35</height>
         </rect>
        </property>
@@ -729,6 +813,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Prieteni</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/friends.png</normaloff>../../Desktop/friends.png</iconset>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_inapoi_3">
@@ -755,10 +843,75 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_informatii_client">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>151</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_informatii_client{
+	
+	background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_informatii_client:hover{
+	background-color: rgb(157, 217, 146);
+
+
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Informații utilizator</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/info.png</normaloff>../../Desktop/info.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_stergere">
+       <property name="geometry">
+        <rect>
+         <x>356</x>
+         <y>270</y>
+         <width>135</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_stergere{
+	background-color: rgb(245, 156, 156);
+ border-radius:8px;
+}
+#pushButton_stergere:hover{
+
+	
+	background-color: rgb(245, 93, 93);
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Ștergere cont</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/bin.png</normaloff>../../Desktop/bin.png</iconset>
+       </property>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_5">
+    <widget class="QWidget" name="prieteni">
      <widget class="QGroupBox" name="groupBox_4">
       <property name="geometry">
        <rect>
@@ -772,13 +925,13 @@ border-radius:5px;
        <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="title">
-       <string>Prieteni</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_cereri">
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>40</y>
+         <y>30</y>
          <width>135</width>
          <height>35</height>
         </rect>
@@ -824,10 +977,54 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="lista_prieteni_a">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>20</y>
+         <width>221</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="vizualizatre_evolutie_prieten">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>270</y>
+         <width>191</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#vizualizatre_evolutie_prieten{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#vizualizatre_evolutie_prieten:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Vizualizare evoluție prieten</string>
+       </property>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_6">
+    <widget class="QWidget" name="actualizaredate">
      <widget class="QGroupBox" name="groupBox_5">
       <property name="geometry">
        <rect>
@@ -841,7 +1038,7 @@ border-radius:5px;
        <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="title">
-       <string>Actualizare date</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_salveaza">
        <property name="geometry">
@@ -894,6 +1091,10 @@ border-radius:5px;
        </property>
        <property name="text">
         <string>Înapoi</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
        </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_10">
@@ -967,7 +1168,7 @@ border-radius:5px;
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_7">
+    <widget class="QWidget" name="antrenamente">
      <widget class="QGroupBox" name="groupBox_6">
       <property name="geometry">
        <rect>
@@ -982,7 +1183,7 @@ border-radius:5px;
 background-image: url(:/img/1.png);</string>
       </property>
       <property name="title">
-       <string>Antrenamente</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_inapoi_6">
        <property name="geometry">
@@ -1010,6 +1211,10 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
       </widget>
       <widget class="QGroupBox" name="groupBox_12">
        <property name="geometry">
@@ -1032,7 +1237,7 @@ border-radius:5px;
          <rect>
           <x>130</x>
           <y>20</y>
-          <width>81</width>
+          <width>111</width>
           <height>41</height>
          </rect>
         </property>
@@ -1047,7 +1252,7 @@ background-color: rgb(245, 231, 192);</string>
         </item>
         <item>
          <property name="text">
-          <string>Marți</string>
+          <string>Marti</string>
          </property>
         </item>
         <item>
@@ -1067,12 +1272,12 @@ background-color: rgb(245, 231, 192);</string>
         </item>
         <item>
          <property name="text">
-          <string>Sâmbătă</string>
+          <string>Sambata</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Duminică</string>
+          <string>Duminica</string>
          </property>
         </item>
        </widget>
@@ -1122,21 +1327,21 @@ border-radius:5px;
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_8">
+    <widget class="QWidget" name="listaevolutie">
      <widget class="QGroupBox" name="groupBox_7">
       <property name="geometry">
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>491</width>
-        <height>311</height>
+        <width>500</width>
+        <height>350</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
       </property>
       <property name="title">
-       <string>Evolutie</string>
+       <string/>
       </property>
       <widget class="QPushButton" name="pushButton_inapoi_7">
        <property name="geometry">
@@ -1164,10 +1369,27 @@ border-radius:5px;
        <property name="text">
         <string>Înapoi</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listevolution">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>300</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_9">
+    <widget class="QWidget" name="amuitatparola">
      <widget class="QGroupBox" name="groupBox_11">
       <property name="geometry">
        <rect>
@@ -1195,6 +1417,9 @@ border-radius:5px;
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(245, 231, 192);</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
        <property name="echoMode">
         <enum>QLineEdit::Password</enum>
@@ -1265,6 +1490,16 @@ background-color: rgb(245, 231, 192);</string>
         <string>Adresa de mail</string>
        </property>
       </widget>
+      <widget class="QLineEdit" name="adresa_de_mail">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
       <widget class="QLineEdit" name="lineEdit_nou_adresamail">
        <property name="geometry">
         <rect>
@@ -1275,10 +1510,8 @@ background-color: rgb(245, 231, 192);</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(245, 231, 192);</string>
-       </property>
-       <property name="echoMode">
-        <enum>QLineEdit::Password</enum>
+        <string notr="true">background-color: rgb(245, 231, 192);
+</string>
        </property>
       </widget>
      </widget>
@@ -1311,7 +1544,669 @@ border-radius:5px;
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_10"/>
+    <widget class="QWidget" name="listaprieteni">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_10{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_inapoi_10:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listfriends">
+      <property name="geometry">
+       <rect>
+        <x>289</x>
+        <y>30</y>
+        <width>201</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>270</y>
+        <width>76</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#pushButton:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>accepta</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/checked.png</normaloff>../../Desktop/checked.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_respinge">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>270</y>
+        <width>76</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_respinge{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(138, 190, 126);
+ border-radius:8px;
+}
+#pushButton_respinge:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>respinge</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/x-mark.png</normaloff>../../Desktop/x-mark.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_nume_prieten_nou">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_adaugare_prieten">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_adaugare_prieten{
+	
+	background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_adaugare_prieten:hover{
+	background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Trimite cerere</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/add-user.png</normaloff>../../Desktop/add-user.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Adăugare prieten:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament1">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_8">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_8{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_8:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament2">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_17">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_17{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_17:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament3">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_9">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_9{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_9:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament4">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_14">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_14{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_14:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament5">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_11">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_11{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_11:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament6">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_12">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_12{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_12:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_6">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="antrenament7">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_inapoi_13">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>270</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_13{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapoi_13:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_7">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>400</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/12.jpeg);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="informatii_client">
+     <widget class="QListWidget" name="listWidget_informstii_client">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>300</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_inapoi_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_15{
+	font: 12pt &quot;Times New Roman&quot;;
+	background-color: rgb(245, 231, 192);
+	
+ border-radius:8px;
+}
+#pushButton_inapo_15i:hover{
+	font: 12pt &quot;Times New Roman&quot;;
+
+background-color: rgb(157, 217, 146);
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="evolutie_prieten">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+     <widget class="QListWidget" name="lista_evolutie_prieteni">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>300</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 231, 192);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_inapoi_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>135</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_inapoi_16{
+
+background-color: rgb(245, 231, 192);
+ border-radius:8px;
+}
+#pushButton_inapoi_16:hover{
+	
+	background-color: rgb(157, 217, 146);
+
+border-radius:5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Înapoi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Desktop/previous.png</normaloff>../../Desktop/previous.png</iconset>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
