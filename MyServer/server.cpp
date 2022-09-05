@@ -1,8 +1,13 @@
 #include "server.h"
 
-Server::Server(QObject* parent):QTcpServer(parent)
-{
+Server* Server::instanta=nullptr;
 
+Server &Server::get_instanta()
+{
+    if(!instanta)
+        instanta=new Server();
+
+    return *instanta;
 }
 
 void Server::StartServer()

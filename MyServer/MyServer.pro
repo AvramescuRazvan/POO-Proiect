@@ -9,9 +9,20 @@ CONFIG -= app_bundle
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+        iprotocol.cpp \
         main.cpp \
         mythread.cpp \
-        protocol.cpp \
+        protocolactualizaredate.cpp \
+        protocolafisareantrenament.cpp \
+        protocolafisarecereriprietenie.cpp \
+        protocolafisareprieteni.cpp \
+        protocolconectare.cpp \
+        protocolfactory.cpp \
+        protocolinregistrare.cpp \
+        protocolraspunscereri.cpp \
+        protocolstergeprieten.cpp \
+        protocoltrimitecerere.cpp \
+        protocolvizualizareevolutie.cpp \
         server.cpp
 
 # Default rules for deployment.
@@ -20,8 +31,19 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
+    iprotocol.h \
     mythread.h \
-    protocol.h \
+    protocolactualizaredate.h \
+    protocolafisareantrenament.h \
+    protocolafisarecereriprietenie.h \
+    protocolafisareprieteni.h \
+    protocolconectare.h \
+    protocolfactory.h \
+    protocolinregistrare.h \
+    protocolraspunscereri.h \
+    protocolstergeprieten.h \
+    protocoltrimitecerere.h \
+    protocolvizualizareevolutie.h \
     server.h
 
 DISTFILES += \

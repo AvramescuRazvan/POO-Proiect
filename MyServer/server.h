@@ -9,10 +9,14 @@ class Server : public QTcpServer
 {
     Q_OBJECT
 public:
-    explicit Server(QObject* parent=0);
+    static Server& get_instanta();
     void StartServer();
 
 signals:
+
+private:
+    static Server* instanta;
+    Server() {}
 
 public slots:
 

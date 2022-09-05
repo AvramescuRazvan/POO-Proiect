@@ -6,3 +6,6 @@ Varsta:20  Inaltime:1,80
 80 Wed May 18 2022
 76 Wed May 18 2022
 90 Wed May 18 2022
+80 Thu May 19 2022
+60 Mon Sep 5 2022
+65 Mon Sep 5 2022

@@ -1,5 +1,5 @@
  #include "mythread.h"
-#include "protocol.h"
+#include "ProtocolFactory.h"
 
 
 MyThread::MyThread(qintptr ID, QObject* parent):QThread(parent)
@@ -33,29 +33,8 @@ void MyThread::readyRead()
     QString date=QString(Data);
     QStringList lista=date.split("|");
 
+    socket->write(ProtocolFactory::creare_protocol(lista)->raspuns().toUtf8());
 
-    if(lista.value(0)=="1")
-        socket->write(Protocol::conectare(lista).toUtf8());
-    else if(lista.value(0)=="2")
-        socket->write(Protocol::inregistrare(lista).toUtf8());
-    else if(lista.value(0)=="3")
-        socket->write(Protocol::afisare_antrenament(lista.value(1)).toUtf8());
-    else if(lista.value(0)=="4")
-        Protocol::actualizare_date(lista);
-    else if(lista.value(0)=="5")
-        socket->write(Protocol::vizualizare_evolutie(lista.value(1)).toUtf8());
-    else if(lista.value(0)=="6")
-        socket->write(Protocol::trimite_cerere(lista).toUtf8());
-    else if(lista.value(0)=="7")
-        socket->write(Protocol::accepta_resping_cerere(lista).toUtf8());
-    else if(lista.value(0)=="8")
-        socket->write(Protocol::vizualizare_evolutie(lista.value(1)).toUtf8());
-    else if(lista.value(0)=="9")
-        socket->write(Protocol::sterge_prieten(lista).toUtf8());
-    else if(lista.value(0)=="10")
-        socket->write(Protocol::afisare_prieteni(lista.value(1)).toUtf8());
-    else if(lista.value(0)=="11")
-        socket->write(Protocol::afisare_cereri_prietenie(lista.value(1)).toUtf8());
 }
 
 void MyThread::disconnected()
